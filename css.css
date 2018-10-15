@@ -1,0 +1,87 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #305B90;
+    background: -webkit-linear-gradient(315deg, #305B90 0%, #305B90 30%, #529bf5 100%) fixed;
+    background: linear-gradient(135deg, #305B90 0%, #305B90 30%, #529bf5 100%) fixed;
+    display: flex;
+}
+
+.card-photo {
+    margin: auto;
+}
+
+.card-photo img {
+    width: 128px;
+    margin-top: -64px;
+    border: #ffffff solid 4px;
+}
+
+#about-card {
+    margin: auto;
+}
+
+.about-content {
+    max-width: 440px;
+    margin: auto;
+}
+
+.about-card {
+    text-align: center;
+}
+
+.about-desc {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.about-education {
+    margin-top: 20px;
+}
+
+.about-section-header {
+    color: #999;
+}
+
+.btn-primary {
+    background-color: #305B90;
+}
+
+.about-links{
+    margin-top: 20px;
+}
+
+.about-links a {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+
+
+.about-links a:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+.about-links img {
+    max-width: 40px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.btn-group{
+    width: 100%;
+}
+
+.btn-cv{
+
+}
+
+.btn-hire-me{
+    width: 100%;
+}
+
